@@ -6,9 +6,13 @@
 }
 
 .mynav .nav-item a{
-    color: green;
+    color:greenyellow;
 }
 
+.mynav .nav-item .fa {
+    color: greenyellow;
+    padding: 10px;
+}
 
 .myc {
     top: 0;
