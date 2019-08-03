@@ -18,6 +18,14 @@
     top: 0;
 }
 
+.container h3 {
+    position: absolute;
+    top: 34%;
+    left: 34%;
+    z-index: 10;
+    color: greenyellow;
+}
+
 .realization h5 {
     display: flex;
     justify-content: center;
