@@ -1,6 +1,28 @@
-.realization {
+.realization h5 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+.projects h5 {
+    display: flex;
     justify-content: center;
 }
 
+.projbox {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.videobox {
+    position: relative;
+}
+
+.videobox video {
+    width: 100%;
+}
+
+.videobox h5 {
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    color: white;
+}
