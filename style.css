@@ -1,3 +1,19 @@
+.mynav {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    z-index: 10;
+}
+
+.mynav .nav-item a{
+    color: green;
+}
+
+
+.myc {
+    top: 0;
+}
+
 .realization h5 {
     display: flex;
     justify-content: center;
