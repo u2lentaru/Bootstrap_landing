@@ -1,8 +1,8 @@
 .mynav {
     position: absolute;
     top: 30px;
-    width: 100%;
     z-index: 10;
+    width: 100%;
 }
 
 .mynav .nav-item a{
