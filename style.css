@@ -279,6 +279,10 @@ aside img {
     color: white;
 }
 
+.excelent {
+    display: flex;
+}
+
 footer {
     background-color: #111111;
 }
