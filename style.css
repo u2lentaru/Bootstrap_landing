@@ -6,7 +6,7 @@
 }
 
 .mynav a{
-    color:greenyellow;
+    color:white;
 }
 
 .mynav a:hover {
@@ -14,15 +14,11 @@
 }
 
 .mynav .fa {
-    color: greenyellow;
+    color: white;
     padding: 10px;
 }
 
 .mynav .fa:hover {
-    color: burlywood;
-}
-
-.container .logo:hover {
     color: burlywood;
 }
 
@@ -40,7 +36,7 @@
     top: 20%;
     left: 35%;
     z-index: 10;
-    color: greenyellow;
+    color: white;
 }
 
 .container button {
@@ -48,8 +44,14 @@
     top: 30%;
     left: 45%;
     z-index: 10;
-    background-color: burlywood;
+    background-color: rgb(94, 56, 6);
     color: white;
+    border: none;
+}
+
+.container button:hover {
+    background-color: rgb(68, 22, 4);
+    transition: all 0.5s ease;
 }
 
 .container .logo {
@@ -61,9 +63,9 @@
     color: white;
 }
 
-.realization h5 {
-    display: flex;
-    justify-content: center;
+.container .logo:hover {
+    color: burlywood;
+    text-decoration: none;
 }
 
 .options {
@@ -153,15 +155,20 @@
 .options figure:hover figcaption {
     color: #c7b299;
 }
-  
-.realization img {
+
+aside h5 {
+    display: flex;
+    justify-content: center;
+}
+
+aside img {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
 }
 
-.realization .mwpt {
+.mwpt {
     display: flex;
     justify-content: space-between;
     background-color: #412503;
@@ -169,16 +176,51 @@
     padding: 20px;
 }
 
-.realization .mwpt button {
+.mwpt button {
     width: 150px;
     height: 50px;
     color: white;
-    background-color: rgb(75, 45, 7); 
+    background-color: rgb(75, 45, 7);
+    border: 1 solid burlywood; 
+}
+
+.mwpt button:hover {
+    background-color: rgb(39, 17, 8);
+    transition: all 0.5s ease;
 }
 
 .projects h5 {
     display: flex;
     justify-content: center;
+}
+
+.projects p {
+    display: block;
+    text-align: center;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+  
+}
+
+.projmenu {
+    display: flex;
+    justify-content: center ;
+  }
+
+.projmenu a {
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+.projmenu a:hover {
+    background-color: rgb(155, 113, 58);
+    transition: background-color 0.3s ease;
 }
 
 .projbox {
