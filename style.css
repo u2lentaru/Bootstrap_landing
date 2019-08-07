@@ -235,13 +235,22 @@ aside img {
     height: 100%;
 }
 
-.projects .prjbutt {
+.prjbutt {
     display: flex;
-    justify-items: center;
+    justify-content: center;
 }
 
-.projects .prjbutt button {
-    justify-content: center;
+.prjbutt button {
+    background-color: #998675; 
+    color: white;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 10px;
+}
+
+.prjbutt button:hover {
+    transform: translateY(-10px);
 }
 
 .videobox {
