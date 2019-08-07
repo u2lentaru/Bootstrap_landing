@@ -5,13 +5,25 @@
     width: 100%;
 }
 
-.mynav .nav-item a{
+.mynav a{
     color:greenyellow;
 }
 
-.mynav .nav-item .fa {
+.mynav a:hover {
+    color: burlywood;
+}
+
+.mynav .fa {
     color: greenyellow;
     padding: 10px;
+}
+
+.mynav .fa:hover {
+    color: burlywood;
+}
+
+.container .logo:hover {
+    color: burlywood;
 }
 
 .myc {
