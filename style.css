@@ -238,12 +238,14 @@ aside img {
 }
 
 .projects p {
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
     font-family: Montserrat;
     color: #8c8c8c;
     font-size: 16px;
-  
 }
 
 .projmenu {
@@ -321,6 +323,15 @@ aside img {
     align-self: center;
     z-index: 10;
     color:white;
+}
+
+.videobox p {
+    position: absolute;
+    top: 50%;
+    align-self: center;
+    text-align: center;
+    z-index: 10;
+    color: white;
 }
 
 .excelent {
