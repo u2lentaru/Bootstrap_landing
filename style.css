@@ -316,6 +316,13 @@ aside img {
     font-size: 48px;
 }
 
+.stat span {
+    padding-bottom: 20px;
+    border-bottom-color: white;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
 .recent {
     display: flex;
     flex-direction: column;
