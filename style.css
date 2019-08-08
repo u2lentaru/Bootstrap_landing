@@ -336,5 +336,11 @@ aside img {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
     background-color: #111111;
+    padding-left: 20%;
+    padding-right: 20%;
 }
