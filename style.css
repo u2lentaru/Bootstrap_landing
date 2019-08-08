@@ -309,12 +309,30 @@ aside img {
 }
 
 .stat img {
-    width: 15%;
+    width: 35%;
+}
+
+.stat figcaption {
+    font-size: 48px;
 }
 
 .recent {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.recent h2 {
+    align-self: center;
+}
+
+.recent p {
+    align-self: center;
+    width: 50%;
+}
+
+.recent img {
+    width: 100%;
 }
 
 footer {
