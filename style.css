@@ -343,11 +343,12 @@ aside img {
 }
 
 .ex_list {
+    justify-content: left;
     margin-top: 50px;
 }
 
 .exdetsumm {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .stat {
