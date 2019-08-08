@@ -281,6 +281,7 @@ aside img {
 
 .excelent {
     display: flex;
+    justify-content: space-around;
 }
 
 footer {
