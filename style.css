@@ -305,6 +305,9 @@ aside img {
 
 .videobox {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -317,7 +320,7 @@ aside img {
     top: 43%;
     align-self: center;
     z-index: 10;
-    color: blue;
+    color:white;
 }
 
 .excelent {
