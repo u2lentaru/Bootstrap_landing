@@ -210,23 +210,27 @@ aside img {
 
 .mwpt {
     display: flex;
-    justify-content: space-between;
-    background-color: #412503;
-    color: wheat;
+    justify-content: space-around;
+    background-color: #1a1107;
+    color: white;
     padding: 20px;
+}
+
+.mwpt .wax {
+    color: #8f724e;
 }
 
 .mwpt button {
     width: 150px;
     height: 50px;
     color: white;
-    background-color: rgb(75, 45, 7);
+    background-color: rgb(129, 112, 89);
     border: 1 solid burlywood; 
 }
 
 .mwpt button:hover {
-    background-color: rgb(39, 17, 8);
-    transition: all 0.5s ease;
+    background-color: rgb(71, 54, 47);
+    transition: all 0.3s ease;
 }
 
 
@@ -303,6 +307,8 @@ aside img {
 
 .prjbutt button:hover {
     transform: translateY(-10px);
+    background-color: rgb(155, 113, 58);
+    transition: background-color 0.3s ease;
 }
 
 .videobox {
