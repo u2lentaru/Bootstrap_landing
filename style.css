@@ -31,22 +31,49 @@
     height: 100%;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+}
+
 .container h3 {
     position: absolute;
-    top: 20%;
-    left: 35%;
+    top: 30%;
+    align-self: center;
     z-index: 10;
     color: white;
 }
 
+.container h2 {
+    position: absolute;
+    top: 35%;
+    align-self: center;
+    z-index: 10;
+    color: white;
+}
+
+.container p {
+    position: absolute;
+    top: 40%;
+    align-self: center;
+    text-align: center;
+    z-index: 10;
+    color: white;
+    width: 35%;
+    font-size: 14px;
+}
+
 .container button {
     position: absolute;
-    top: 30%;
-    left: 45%;
+    top: 50%;
+    align-self: center;
     z-index: 10;
-    background-color: rgb(94, 56, 6);
+    background-color: rgb(161, 136, 103);
     color: white;
     border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .container button:hover {
@@ -156,9 +183,22 @@
     color: #c7b299;
 }
 
-aside h5 {
+aside {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+aside h5 {
+    align-self: center;
+}
+
+aside p {
+    align-self: center;
+    text-align: center;
+    width: 50%;
+    color: #c7b299;
+    font-size: 14px;
 }
 
 aside img {
@@ -264,8 +304,8 @@ aside img {
 }
 
 .videobox {
-    padding: 20px;
     position: relative;
+    padding: 20px;
 }
 
 .videobox video {
@@ -275,8 +315,9 @@ aside img {
 .videobox h5 {
     position: absolute;
     top: 43%;
-    left: 43%;
-    color: white;
+    align-self: center;
+    z-index: 10;
+    color: blue;
 }
 
 .excelent {
