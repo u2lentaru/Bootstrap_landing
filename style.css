@@ -295,6 +295,28 @@ aside img {
     margin-left: 50px;
 }
 
+.stat {
+    display: flex;
+    justify-content: space-around;
+    background-color: #412503;
+    color: white;
+}
+
+.stat figure {
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.stat img {
+    width: 15%;
+}
+
+.recent {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     background-color: #111111;
 }
