@@ -340,11 +340,15 @@ aside img {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
 }
 
-.ex_list {
-    justify-content: left;
+.ex_list  h3 {
     margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(141, 89, 12);
 }
 
 .exdetsumm {
