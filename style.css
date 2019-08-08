@@ -337,13 +337,13 @@ aside img {
 .excelent {
     display: flex;
     justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 50px;
 }
 
 .ex_list {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .exdetsumm {
@@ -390,7 +390,6 @@ aside img {
 
 .recent p {
     align-self: center;
-    width: 50%;
 }
 
 .recent img {
