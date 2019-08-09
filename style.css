@@ -359,7 +359,7 @@ aside img {
 .ex_list  h3 {
     margin-top: 50px;
     margin-bottom: 50px;
-    color: rgb(141, 89, 12);
+    color: #8c8c8c;
 }
 
 .exdetsumm {
@@ -408,6 +408,9 @@ aside img {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
 }
 
 .recent h2 {
