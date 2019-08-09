@@ -78,8 +78,9 @@
 }
 
 .container button:hover {
+    transform: translateY(-5px);
     background-color: rgb(117, 94, 84);
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .container .logo {
@@ -308,7 +309,7 @@ aside img {
 }
 
 .prjbutt button:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     background-color: rgb(155, 113, 58);
     transition: background-color 0.3s ease;
 }
