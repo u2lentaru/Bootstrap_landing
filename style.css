@@ -21,6 +21,7 @@
 
 .mynav .fa:hover {
     color: burlywood;
+    transition: color 0.3s ease;
 }
 
 .myc {
