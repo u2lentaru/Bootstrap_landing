@@ -387,12 +387,22 @@ aside img {
     font-size: 48px;
 }
 
-.stat span {
+.stat span { 
     padding-bottom: 20px;
     border-bottom-color: white;
     border-bottom-width: 3px;
     border-bottom-style: solid;
 }
+
+/* .stat figure:after { 
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #FFF;
+    left: 50px;
+  }*/
 
 .recent {
     display: flex;
