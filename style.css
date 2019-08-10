@@ -428,11 +428,11 @@ aside img {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    cursor: pointer;
 }
 
 .fb i {
     padding: 5px;
+    cursor: pointer;
 }
 
 .rec_fig {
