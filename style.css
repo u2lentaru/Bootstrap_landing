@@ -424,6 +424,17 @@ aside img {
     padding-bottom: 30px;
 }
 
+.recent .fb {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.fb i {
+    padding: 5px;
+}
+
 .rec_fig {
     display: flex;
     justify-content: space-around;
