@@ -381,16 +381,6 @@ aside img {
     margin-bottom: 100px;
 }
 
-/* .stat figure:after { 
-    content: "";
-	position: absolute;
-	display: block;
-	width: 30px;
-	height: 2px;
-	background-color: #FFF;
-    left: 110px;
-}*/
-
 .stat img {
     width: 35%;
 }
@@ -399,11 +389,15 @@ aside img {
     font-size: 48px;
 }
 
-.stat span {  
-    padding-bottom: 20px;
-    border-bottom-color: white;
-    border-bottom-width: 3px;
-    border-bottom-style: solid;
+.stat figure::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    left: 45%;
+    margin-top: 30px;
 }
 
 /* .stat figure:after { 
