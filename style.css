@@ -494,6 +494,31 @@ aside img {
     width: 100%;
 }
 
+.total {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(23, 25, 29);
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.total .logo {
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.total .logo h3 {
+    padding-top: 12px;
+}
+
+.total_item {
+    color: white;
+    width: 20%;
+    padding: 5px;
+}
+
 footer {
     display: flex;
     flex-direction: row;
