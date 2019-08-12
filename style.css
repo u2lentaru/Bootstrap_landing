@@ -335,6 +335,10 @@ aside img {
     width: 100%;
 }
 
+.videobox video[poster] {
+    width:100%;
+    }
+
 .videobox h5 {
     position: absolute;
     top: 43%;
