@@ -513,6 +513,7 @@
     background-color: rgb(23, 25, 29);
     padding-left: 150px;
     padding-right: 150px;
+    padding-bottom: 150px;
 
 }
 
@@ -535,9 +536,46 @@
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     background-color: #111111;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: Montserrat;
+    color: #545454;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.copyright a {
+    color: #545454;
+    text-decoration: none;
+    padding: 10px;
+    border-left: 1px solid #545454;
+    /* line-height: 10px; */
+}
+
+.copyright span {
+    color: #7a7971;
+    padding-right: 20px;
+}
+
+.copyright .faq {
+    color: wheat;
+}
+
+.design a {
+    color: #7a7971;
+    text-decoration: none;
+}
+
+.design span {
+    padding: 10px;
+}
+
+.design .tf {
+    border-right: 1px solid #545454;
 }
