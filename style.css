@@ -107,6 +107,10 @@
     /*transition: color 0.3s ease;*/
 }
 
+.realization h5 {
+    color: white;
+}
+
 .options {
     display: flex;
     justify-content: space-around;
@@ -385,6 +389,10 @@
     justify-content: space-around;
     background-color: #412503;
     color: white;
+}
+
+.stat h5 {
+    color: #412503;
 }
 
 .stat figure {
