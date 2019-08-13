@@ -158,7 +158,7 @@
     text-align: center;
 }
 
-.options figure p {
+.options figure p {  
     font-family: Montserrat;
     color: #8c8c8c;
     font-size: 14px;
@@ -167,7 +167,8 @@
     text-align: center;
 }
 
-.options figure:after {
+
+.options figure:after { 
     content: "";
     display: block;
     border: 1px solid #f1eee9;
@@ -175,7 +176,8 @@
     position: absolute;
     width: 70px;
     height: 1px;
-    left: 90px;
+    /* left: 10px; */
+    margin-left: 105px;
 }
   
 .options figure:hover:after {
