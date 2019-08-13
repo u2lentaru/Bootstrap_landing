@@ -399,7 +399,7 @@ aside img {
     width: 35%;
 }
 
-.stat figcaption {
+.stat figcaption .fc{
     font-size: 48px;
 }
 
