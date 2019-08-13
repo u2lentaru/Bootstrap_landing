@@ -400,7 +400,9 @@ aside img {
 }
 
 .stat figcaption .fc{
+    /* font-family: Montserrat; */
     font-size: 48px;
+    font-weight: 100;
 }
 
 .stat figure::after {
