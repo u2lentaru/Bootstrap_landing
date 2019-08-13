@@ -429,7 +429,7 @@ aside img {
     align-self: center;
 }
 
-.recent p {
+.recent .rc {
     align-self: center;
     text-align: center;
     width: 50%;
@@ -471,6 +471,7 @@ aside img {
 
 .rec_fig .rft {
     font-size: 14px;
+    /* line-height: 50%; */
 }
 
 .rec_fig a {
