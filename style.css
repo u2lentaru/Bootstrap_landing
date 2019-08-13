@@ -510,16 +510,19 @@
 .total {
     display: flex;
     justify-content: space-around;
+    color: #545454;
     background-color: rgb(23, 25, 29);
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 150px;
+    padding-top: 100px;
 
 }
 
 .total .logo {
     display: flex;
     color: white;
+    text-decoration: none;
     margin-bottom: 10px;
 }
 
@@ -528,16 +531,33 @@
 }
 
 .total_item {
-    color: white;
+    color: #545454;
     width: 20%;
     padding: 5px;
+}
+
+.total_item .rm {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.total_item .rm::after {
+    content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-left: 7px solid grey;
+    float: right;
+    padding-right: 50%;
+    padding-top: 1%;
 }
 
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
     background-color: #111111;
     padding: 30px;
     position: fixed;
