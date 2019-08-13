@@ -197,17 +197,17 @@
     color: #c7b299;
 }
 
-aside {
+.purchase {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-aside h5 {
+.purchase h5 {
     align-self: center;
 }
 
-aside p {
+.purchase p {
     align-self: center;
     text-align: center;
     width: 50%;
@@ -215,7 +215,7 @@ aside p {
     font-size: 14px;
 }
 
-aside img {
+.purchase img {
     display: flex;
     justify-content: center;
     width: 100%;
