@@ -519,6 +519,10 @@
 
 }
 
+.total h4 {
+    color: white;
+}
+
 .total .logo {
     display: flex;
     color: white;
