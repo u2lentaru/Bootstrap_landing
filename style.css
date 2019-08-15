@@ -550,6 +550,18 @@
     font-size: 14px;
 }
 
+.total_item .pw {
+    color: white;
+}
+
+.total_item .sw {
+    color: wheat;
+}
+
+.total_item .blt {
+    color: #7a7971;
+}
+
 .total_item .rm::after {
     content: "";
 	display: block;
