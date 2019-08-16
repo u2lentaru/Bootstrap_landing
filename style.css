@@ -300,6 +300,7 @@
     margin: 40px;
 }
 
+
 .projbox img {
     width: 100%;
     height: 100%;
@@ -307,6 +308,7 @@
 
 .projbox img:hover {
     cursor: pointer;
+    filter: blur(5px);
 }
 
 .prjbutt {
@@ -647,6 +649,13 @@
     padding-right: 50%;
     padding-top: 1%;
 }
+
+/* .drbble { 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 50px;
+    grid-auto-rows: 50px;
+}*/
 
 footer {
     display: flex;
