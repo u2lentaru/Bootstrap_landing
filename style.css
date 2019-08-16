@@ -507,6 +507,23 @@
     width: 100%;
 }
 
+.grid_test {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px;
+    grid-template-rows: 200px;
+}
+
+.gti {
+    border: 1px solid black;
+}
+
+.gti-1 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+
 .total {
     display: flex;
     justify-content: space-around;
