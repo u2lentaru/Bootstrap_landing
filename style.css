@@ -424,7 +424,7 @@
     margin-top: 30px;
 }
 
-.recent {
+/* .recent { 
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -479,7 +479,6 @@
 
 .rec_fig .rft {
     font-size: 14px;
-    /* line-height: 50%; */
 }
 
 .rec_fig a {
@@ -505,9 +504,9 @@
 
 .recent img {
     width: 100%;
-}
+}*/
 
-.grid_test {
+.grid_recent {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px;
