@@ -511,11 +511,54 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px;
-    grid-template-rows: 200px;
+    grid-template-rows: 100px;
+    grid-column-gap: 50px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .gti {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.gti a {
+    display: block;
+    font-family: Montserrat;
+    color: #c7b299;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.gti a::after {
+    content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-left: 11px solid grey;
+    float: right;
+    padding-right: 70%;
+}
+
+.gti img {
+    width: 97%;
+    padding-top: 3%;
+}
+
+
+.gti figcaption {
+    text-align: left;
+}
+
+.gti figure:hover {
+    background-color: rgb(121, 102, 86);
+    transition: background-color 0.5s ease-in-out;
 }
 
 .gti-1 {
@@ -523,6 +566,9 @@
     text-align: center;
 }
 
+.gtfb {
+    text-align: center;
+}
 
 .total {
     display: flex;
