@@ -694,11 +694,11 @@
 }
 
 .dribble .dri2:hover {
-    filter: saturate(30);
+    filter: saturate(25);
 }
 
 .dribble .dri3:hover {
-    filter: grayscale(0.5);
+    filter: grayscale(0.7);
 }
 
 .dribble .dri4:hover {
