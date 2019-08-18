@@ -689,8 +689,20 @@
     height: 100%;
 }
 
-.dribble img:hover {
+.dribble .dri1:hover {
     filter: invert(1);
+}
+
+.dribble .dri2:hover {
+    filter: saturate(30);
+}
+
+.dribble .dri3:hover {
+    filter: grayscale(0.5);
+}
+
+.dribble .dri4:hover {
+    filter: sepia(100);
 }
 
 footer {
