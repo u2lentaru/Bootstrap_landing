@@ -252,6 +252,12 @@
 }
 
 
+.projects .col-4 :hover {
+    color: white;
+    background-color: rgb(105, 92, 75);
+    transition: all 0.3s ease; 
+}
+
 .projects h3 {
     display: flex;
     justify-content: center;
@@ -296,19 +302,21 @@
     flex-direction: column;
     /* justify-content: center; */
     height: 300px;
-    border: 1px solid black;
-    margin: 40px;
+    /* border: 1px solid black; */
+    padding: 40px;
+    margin: 10px;
 }
 
 
+
 .projbox img {
-    width: 100%;
-    height: 100%;
+    width: 88%;
+    height: 88%;
 }
 
 .projbox img:hover {
     cursor: pointer;
-    filter: blur(5px);
+    filter: blur(3px);
 }
 
 .prjbutt {
@@ -622,11 +630,13 @@
 }
 
 .total_item p {
-    padding: 2px;
+    padding: 1px;
 }
 
 .total_item hr {
-    padding: 2px;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
 }
 
 .total_item .rm {
