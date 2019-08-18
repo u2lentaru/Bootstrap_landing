@@ -693,8 +693,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #111111;
-    padding: 30px;
+    background-color: #292525ea;
+    padding: 17px;
     position: fixed;
     left: 0;
     bottom: 0;
